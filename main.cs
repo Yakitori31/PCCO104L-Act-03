@@ -8,8 +8,10 @@ class Program {
 
     while (input != "exit")
     {
-      Console.WriteLine(input);
+      Console.WriteLine("You entered: " + input);
       input = Console.ReadLine();
     }
+    
+    Console.WriteLine("Program closed.");
   }
 }
